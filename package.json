@@ -1,0 +1,20 @@
+{
+  "name": "typescript-node-starter",
+  "version": "0.0.1",
+  "description": "Typescript for NodeJs",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "tsc && node lib/index.js",
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.11.18"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4",
+    "vitest": "^0.28.2"
+  }
+}
